@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login X</title>
+
+<style>
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+margin: 0;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.box {
+width: 320px;
+text-align: center;
+}
+
+.logo {
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+h1 {
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+input {
+width: 100%;
+padding: 12px;
+margin-bottom: 10px;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-size: 14px;
+}
+
+input:focus {
+border-color: #1DA1F2;
+outline: none;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background-color: #1DA1F2;
+border: none;
+border-radius: 25px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0c85d0;
+}
+
+.link {
+margin-top: 15px;
+font-size: 13px;
+}
+
+.link a {
+color: #1DA1F2;
+text-decoration: none;
+}
+
+.link a:hover {
+text-decoration: underline;
+}
+
+footer {
+margin-top: 25px;
+font-size: 11px;
+color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<div class="logo">X</div>
+<h1>Masuk ke X</h1>
+
+<form>
+<input type="text" placeholder="Email atau username" required>
+<input type="password" placeholder="Password" required>
+<button type="submit">Masuk</button>
+</form>
+
+<div class="link">
+<a href="#">Lupa password?</a><br>
+<a href="#">Daftar</a>
+</div>
+
+<footer>
+Halaman ini adalah simulasi edukasi keamanan cyber. Perhatikan URL sebelum memasukkan data sensitif!
+</footer>
+</div>
+
+</body>
+</html>
